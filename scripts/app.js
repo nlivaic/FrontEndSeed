@@ -1,3 +1,6 @@
-console.log('aaGreeting from app.js, now part of bundle.js'); 
+import '../styles/main.css';
+import { printMe } from './messages';
+
+printMe('Hello world!');
 
 module.hot.accept();
