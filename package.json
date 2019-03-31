@@ -1,7 +1,7 @@
 {
-  "name": "todoapp",
+  "name": "Front End App Seed",
   "version": "1.0.0",
-  "description": "ToDo App",
+  "description": "Front End App Seed",
   "main": "app.js",
   "scripts": {
     "start": "babel-node buildScripts/srcServer.js"
