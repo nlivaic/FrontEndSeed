@@ -1,21 +1,19 @@
 {
-  "name": "Front End App Seed",
+  "name": "FrontEndSeed",
   "version": "1.0.0",
-  "description": "Front End App Seed",
+  "description": "FrontEndSeed",
   "main": "app.js",
   "scripts": {
     "start": "babel-node buildScripts/srcServer.js"
   },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.4.0",
     "aspnet-webpack": "^3.0.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
@@ -28,12 +26,9 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-latest": "^6.24.1",
-    "babel-register": "^6.26.0",
     "bootstrap": "^4.3.1",
     "express": "^4.16.4",
+    "jquery": "^3.3.1",
     "open": "^6.0.0"
   }
 }
